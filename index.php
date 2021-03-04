@@ -16,6 +16,15 @@
 <script type="text/javascript" src="bootstrap/bootstrap.js"></script>
 <script type="text/javascript" src="bootstrap/bootstrap.min.js"></script>
 
+
+<style type="text/css">
+	body {
+		max-width: 1080px;
+		margin: 0 auto;
+	}
+</style>
+
+
 </head>
 <body>
 
@@ -107,6 +116,21 @@ echo $oppo[1][0] . ":Price" . $oppo[1][1] . ":In Stock" . $oppo[1][2] ;
 
 </div>
 
+
+<button class="btn btn-primary btn-block">
+	
+	<a href="form.php">FORM.PHP</a> <br/> <br/>
+
+	<a href="masterform.php">masterform.PHP</a>
+
+
+</button>
+
+<br/> <br/>
+
+
+
+<!-- <a href="form.php" type="btn">FORM.PHP</a> -->
 
 
 
