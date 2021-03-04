@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 
 <!-- CDN -->
@@ -42,7 +42,7 @@ body {
 	padding: 20px;
 }
 #grid5 {
-	background-color: #C2292C;
+	/*background-color: #C2292C;*/
 	grid-area: finish;
 	padding: 20px;
 }
@@ -89,46 +89,62 @@ body {
 }
 
 #flex1 {
-	padding: 15px;
+	padding: 30px;
 	background-color: #8e29fa;
 }
 #flex2 {
-	padding: 15px;
+	padding: 30px;
 	background-color: #90abe7;
 }
 #flex3 {
-	padding: 15px;
+	padding: 30px;
 	background-color: #1db447;
 }
 #flex4 {
-	padding: 15px;
+	padding: 30px;
 	background-color: #8ff818;
 }
 #flex5 {
-	padding: 15px;
+	padding: 30px;
 	background-color: #bb1c6d;
 }
 #flex6 {
-	padding: 15px;
+	padding: 30px;
 	background-color: #ff1a90;
 }
 
 
 
 
-/*grid6*/
+/*grid5*/
 #fleximg1 {
 	display: flex;
-	padding: 10px;
+	flex-direction: column;
+	flex-wrap: wrap;
+	grid-gap: 10px;
+	justify-content: center;
+	align-items: center;
 }
 
 
-#img1 {}
-#img2 {}
-#img3 {}
-#img4 {}
-#img5 {}
-#img6 {}
+#img1 {
+	padding: 10px;
+}
+#img2 {
+	padding: 10px;
+}
+#img3 {
+	padding: 10px;
+}
+#img4 {
+	padding: 10px;
+}
+#img5 {
+	padding: 10px;
+}
+#img6 {
+	padding: 10px;
+}
 
 
 
@@ -162,12 +178,21 @@ body {
 		
 		<div id="fleximg1">
 			
-			<div id="img1">1</div>
-			<div id="img2">2</div>
-			<div id="img3">3</div>
-			<div id="img4">4</div>
-			<div id="img5">5</div>
-			<div id="img6">6</div>
+			<div id="img1">
+				<img src="images/lemans1.jpg" alt="Car Photography" width="150" height="150">
+			</div>
+			<div id="img2">
+				<img src="images/lemans2.jpg" alt="Car Photography" width="150" height="150">
+			</div>
+			<div id="img3">
+				<img src="images/lemans3.jpg" alt="Car Photography" width="150" height="150">
+			</div>
+			<div id="img4">
+				<img src="images/lemans4.jpg" alt="Car Photography" width="150" height="150">
+			</div>
+			<div id="img5">
+				<img src="images/lemans5.jpg" alt="Car Photography" width="150" height="150">
+			</div> 
 
 		</div>
 
